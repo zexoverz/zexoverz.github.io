@@ -35,10 +35,17 @@ import gsl from "./company/gsl.png"
 import mid from "./company/mid.png"
 import quadrant from "./company/quadrant.png"
 
+//Project
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import yusu from "./yusu.png"
+import future from "./future.png"
+import geolancer from "./geolancer.jpg"
+import ayocas from "./ayocas.png"
+import fury from "./fury.png"
+import youtubeclone from "./youtubeclone.png"
+import zcommerce from "./zcommerce.png"
 
 export {
   logo,
@@ -76,5 +83,11 @@ export {
   hardhat,
   chainlink,
   graph,
-  moralis
+  moralis,
+  future,
+  geolancer,
+  ayocas,
+  fury,
+  youtubeclone,
+  zcommerce
 };

@@ -29,7 +29,12 @@ import {
   solidity,
   chainlink,
   graph,
-  moralis
+  moralis,
+  geolancer,
+  ayocas,
+  fury,
+  youtubeclone,
+  zcommerce
 } from "../assets";
 
 export const navLinks = [
@@ -40,6 +45,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "tech",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -211,67 +220,185 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Geolancer App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Geolancer is the world's first mobile application that rewards you with cryptocurrency and NFTs for mapping your city. As the full stack web3 developer, I was responsible for creating the API Backend for the Geolancer app using Node.js. My role included managing the entire NFT feature within Geolancer, including the implementation of a lottery system, NFT Grid, and reward distribution.",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Blockchain",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "DynamoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NFT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ExpressJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Web3",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: geolancer,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.sheelafoam.quadrant&hl=en&gl=US",
+    demo_link: "https://play.google.com/store/apps/details?id=com.sheelafoam.quadrant&hl=en&gl=US"
   },
   {
-    name: "Job IT",
+    name: "Ayocas App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Ayocas is the reliable, easy way to charge your EV. It allows users to find EV charging stations, see real-time charger details, reserve charging sessions, and initiate charging. As the Backend Developer for Ayocas, I was responsible for developing the entire backend infrastructure. I integrated the app with EV charging hardware through the OCPP (Open Charge Point Protocol) and managed the dashboard API using Node.js.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ExpressJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OCPP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PrismaJs",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ayocas,
+    source_code_link: "https://play.google.com/store/apps/details?id=id.novatech.ev&hl=id-ID",
+    demo_link: "https://play.google.com/store/apps/details?id=id.novatech.ev&hl=id-ID"
   },
   {
-    name: "Trip Guide",
+    name: "Furry Wallet",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "We believe that account abstraction is the key to unlocking mass adoption. By simplifying the user experience and providing intuitive tools for managing web3 wallets, we can empower everyone to seamlessly navigate the DeFi landscape. Furry wallet is one of my project winning hackathon in Eth SG 2023, we win 2nd place UX Tracks. also this project participated on big event Solana HyperDrive.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "BiconomySdk",
         color: "pink-text-gradient",
       },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ERC-4337",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Web3Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Defi App",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Polygon",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solana",
+        color: "green-text-gradient",
+      },
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fury,
+    source_code_link: "https://github.com/zihanlim/0xfury_Hyperdrive_SOL",
+    demo_link: "https://www.youtube.com/watch?v=jaaLMZQyZJM"
+  },
+  {
+    name: "Youtube Web3 Clone",
+    description:
+      "The YouTube Web3 Decentralized Clone is an innovative web application that reimagines the traditional video-sharing platform, such as YouTube, by leveraging Web3 technologies to create a decentralized and censorship-resistant environment for content creators and viewers.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "IPFS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "The Graph",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Livepeer",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Polygon",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "EthersJs",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: youtubeclone,
+    source_code_link: "https://github.com/zexoverz/web3-youtube",
+    demo_link: "https://web3-youtube-mu.vercel.app/"
+  },
+  {
+    name: "Z-ecommerce",
+    description:
+      "Z ecommerce is my personal project, Build and Deploy a fully responsive Modern Full Stack Ecommerce application with Payments functionality. With Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe so that you can cover REAL payments.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sanity Io",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stripe Payment",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: zcommerce,
+    source_code_link: "https://github.com/zexoverz/z-ecommerce",
+    demo_link: "https://z-ecommerce.vercel.app/"
   },
 ];
 
