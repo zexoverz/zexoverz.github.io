@@ -46,6 +46,7 @@ import ayocas from "./ayocas.png"
 import fury from "./fury.png"
 import youtubeclone from "./youtubeclone.png"
 import zcommerce from "./zcommerce.png"
+import gameon from "./gameon.png"
 
 export {
   logo,
@@ -89,5 +90,6 @@ export {
   ayocas,
   fury,
   youtubeclone,
-  zcommerce
+  zcommerce,
+  gameon
 };

@@ -34,7 +34,8 @@ import {
   ayocas,
   fury,
   youtubeclone,
-  zcommerce
+  zcommerce,
+  gameon
 } from "../assets";
 
 export const navLinks = [
@@ -337,7 +338,7 @@ const projects = [
   {
     name: "Youtube Web3 Clone",
     description:
-      "The YouTube Web3 Decentralized Clone is an innovative web application that reimagines the traditional video-sharing platform, such as YouTube, by leveraging Web3 technologies to create a decentralized and censorship-resistant environment for content creators and viewers.",
+      "The YouTube Web3 Decentralized Clone is my personal project.This is an innovative web application that reimagines the traditional video-sharing platform, such as YouTube, by leveraging Web3 technologies to create a decentralized and censorship-resistant environment for content creators and viewers.",
     tags: [
       {
         name: "NextJs",
@@ -399,6 +400,41 @@ const projects = [
     image: zcommerce,
     source_code_link: "https://github.com/zexoverz/z-ecommerce",
     demo_link: "https://z-ecommerce.vercel.app/"
+  },
+  {
+    name: "Game On Stacking Dapp",
+    description:
+      "One of my favorite personal project, I Build web3 Dapp Token Stacking, in which we can provide users to stack their ERC20 token and earn reward, we can also provide multiple token stacking contract. I have my own ERC20 named ZexoToken The contract interacts with an ERC-20 token contract ZexoToken allowing users to stake and claim rewards using these tokens. includes functionality for transferring tokens, checking balances, and storing information about token holders.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Web3js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ethereum",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: gameon,
+    source_code_link: "https://github.com/zexoverz/game-on-dapp",
+    demo_link: "https://game-on-dapp.vercel.app/"
   },
 ];
 
