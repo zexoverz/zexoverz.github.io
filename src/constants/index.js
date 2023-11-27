@@ -35,7 +35,8 @@ import {
   fury,
   youtubeclone,
   zcommerce,
-  gameon
+  gameon,
+  tokensale
 } from "../assets";
 
 export const navLinks = [
@@ -435,6 +436,37 @@ const projects = [
     image: gameon,
     source_code_link: "https://github.com/zexoverz/game-on-dapp",
     demo_link: "https://game-on-dapp.vercel.app/"
+  },
+  {
+    name: "Zexo Cash",
+    description:
+      "Build my Launch ICO Token Salling Dapp, in which we can provide users to buy my erc20 token (ZXT) on any network. Zexocash envisions a future where blockchain technology seamlessly integrates into everyday life, offering practical solutions and driving positive change. We aim to create an ecosystem where innovation, reliability, and accessibility converge.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hardhat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ethers",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ethereum",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: tokensale,
+    source_code_link: "https://github.com/zexoverz/token-sale-dapp",
+    demo_link: "https://zexo-cash-dapp.vercel.app/"
   },
 ];
 

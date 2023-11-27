@@ -47,6 +47,7 @@ import fury from "./fury.png"
 import youtubeclone from "./youtubeclone.png"
 import zcommerce from "./zcommerce.png"
 import gameon from "./gameon.png"
+import tokensale from "./tokensale.png"
 
 export {
   logo,
@@ -91,5 +92,6 @@ export {
   fury,
   youtubeclone,
   zcommerce,
-  gameon
+  gameon,
+  tokensale
 };
