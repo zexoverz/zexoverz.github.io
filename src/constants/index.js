@@ -36,7 +36,12 @@ import {
   youtubeclone,
   zcommerce,
   gameon,
-  tokensale
+  tokensale,
+  bun,
+  gfx,
+  oku,
+  okuProject,
+  gigblocks
 } from "../assets";
 
 export const navLinks = [
@@ -60,17 +65,17 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Web3 Developer",
     icon: web,
   },
   {
-    title: "Blockchain Developer",
-    icon: backend,
+    title: "Backend Developer",
+    icon: mobile,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
+  {
+    title: "Blockchain Developer",
+    icon: mobile,
+  },
 ];
 
 const technologies = [
@@ -105,6 +110,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Bun JS",
+    icon: bun,
   },
   {
     name: "MongoDB",
@@ -146,19 +155,31 @@ const technologies = [
     name: "graph protocol",
     icon: graph,
   },
-  {
-    name: "moralis",
-    icon: moralis,
-  },
+  // {
+  //   name: "moralis",
+  //   icon: moralis,
+  // },
 ];
 
 const experiences = [
+  {
+    title: "Senior Web3 Engineer",
+    company_name: "GFX Labs",
+    icon: gfx,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Present",
+    points: [
+      "Worked on frontend of Oku, an advanced crypto trading platform (www.oku.trade/app)",
+      "Developed interactive graphs that render token and pool data, interact with smart contracts and connect them to the frontend.",
+      "Communicate with designer and backend team to optimize the users experience and maintained pixel perfect focus to ensure all design specs were met.",
+    ],
+  },
   {
     title: "Full Stack Web3 Developer",
     company_name: "Quadrant.io",
     icon: quadrant,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Present",
+    date: "Oct 2022 - Jan 2024",
     points: [
       "Developed an advanced API for the Geolancer App, improving performance by 35% and reducing load time to under 2 seconds.",
       "Implemented a highly intuitive Frontend Admin Panel, resulting in a reduction of user errors by 50% and increasing overall user satisfaction rating by 20 points.",
@@ -221,6 +242,44 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Oku Trade",
+    description:
+      "Oku Trade is a non-custodial DEX trading platform and bridge aggregator offering the best rates and analytics across 18 EVM chains. The platform offers market orders (swaps), limit orders, a Uniswap v3 position manager, on/off ramping, and a pool creation tool, along with the charts and insights expected from a traditional trading platform. As a web3 engineer in GFX Labs, I Developed interactive graphs that render token and pool data, interact with smart contracts and connect them to the frontend. ",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Blockchain",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "gRPC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Defi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: oku,
+    source_code_link: "https://docs.oku.trade/home",
+    demo_link: "https://oku.trade/"
+  },
   {
     name: "Geolancer App",
     description:
@@ -292,6 +351,49 @@ const projects = [
     image: ayocas,
     source_code_link: "https://play.google.com/store/apps/details?id=id.novatech.ev&hl=id-ID",
     demo_link: "https://play.google.com/store/apps/details?id=id.novatech.ev&hl=id-ID"
+  },
+  {
+    name: "Gigblocks",
+    description:
+      "I flight from indonesia and joining Hackathon Eth Tokyo 2024, I Build Gigblocks a decentralize freelancing platform. Our decentralized platform ensures transparency, global access, and fair treatment for freelancers. We offer smart contract-based job management, an ENS-powered reputation system, and secure escrow services. I was responsible to backend development for API Services to read blockchain data from smart contract and ENS Claim Domain Feature. And supporting frontend development for Job Listing and Profile Page. Gigblocks winning 2 sponsor tracks , Best Scroll L1sload precompile challenge and  ENS Best use case.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bunjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Honojs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Web3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Defi App",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ENS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Scroll L2 Network",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: gigblocks,
+    source_code_link: "https://github.com/gigblocks",
+    demo_link: "https://www.youtube.com/watch?v=Dp02qVUwQZw&t=6s"
   },
   {
     name: "Furry Wallet",

@@ -47,13 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        A Senior Full Stack Developer with over 4 years of hands-on experience in designing, developing, and deploying 
-        blockchain solutions, Dapps, and Web3 applications. Proficient in Node.js, MongoDB, Express, React, GraphQL, and a 
+        A Senior Full Stack Developer with over 6 years of hands-on experience in designing, developing, and deploying 
+        backend systems, Dapps, and Web3 applications. Proficient in Nodejs, TypeScript, Reactjs, Web3 tools and a 
         range of blockchain technologies, including EVM, Solidity, and ERC standards. 
-        Strong expertise in blockchain fundamentals and the deployment of ERC-20, ERC-721, 
-        and ERC-1155 tokens. Familiar with DeFi, IDO/IGO, Metaverse, and NFT technologies. 
-        Proven track record of delivering secure and scalable applications and working effectively 
-        in distributed global teams.
+        Strong background in fullstack engineering, blockchain indexing, and web3 interactions. Proven track record of delivering secure, scalable solutions and working effectively in distributed global teams. Passionate about advancing blockchain interoperability and creating innovative DeFi solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

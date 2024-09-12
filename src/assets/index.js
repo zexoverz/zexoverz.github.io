@@ -29,11 +29,13 @@ import hardhat from "./tech/hardhat.svg"
 import chainlink from "./tech/chainlink.png"
 import graph from "./tech/graph.png"
 import moralis from "./tech/moralis.svg"
+import bun from "./tech/bun.svg"
 
 // company
 import gsl from "./company/gsl.png"
 import mid from "./company/mid.png"
 import quadrant from "./company/quadrant.png"
+import gfx from "./company/gfx.jpg"
 
 //Project
 import carrent from "./carrent.png";
@@ -48,6 +50,9 @@ import youtubeclone from "./youtubeclone.png"
 import zcommerce from "./zcommerce.png"
 import gameon from "./gameon.png"
 import tokensale from "./tokensale.png"
+import oku from "./okutrade.png"
+import okuProject from "./okuProject.jpeg"
+import gigblocks from "./gigblocksproject.png"
 
 export {
   logo,
@@ -78,6 +83,7 @@ export {
   gsl,
   mid,
   quadrant,
+  gfx,
   graphQL,
   aws,
   ethereum,
@@ -93,5 +99,9 @@ export {
   youtubeclone,
   zcommerce,
   gameon,
-  tokensale
+  tokensale,
+  bun,
+  oku,
+  okuProject,
+  gigblocks
 };
